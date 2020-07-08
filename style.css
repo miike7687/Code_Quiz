@@ -1,6 +1,6 @@
 .container {
   margin-top: 30px;
-  background-color: coral;
+  background-color: lightgreen;
   border: 3px dotted darkblue;
 }
 
@@ -13,6 +13,7 @@
 .welcome {
   text-align: center;
   text-decoration: underline;
+  font-size: 24px;
 }
 
 #start {
@@ -31,4 +32,11 @@
 .answer-button {
   margin-top: 5px;
   margin-left: 200px;
+}
+
+#only-image {
+  width: 400px;
+  height: 200px;
+  margin-top: 15px;
+  margin-left: 60px;
 }
