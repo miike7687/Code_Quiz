@@ -49,6 +49,7 @@ var questionsArray = [
 ];
 // Test to make sure questions came up in the console log.
 console.log(questionsArray);
+// Set the variable of currentQuestion so I can use it in multiple functions
 var currentQuestion = questionsArray[0];
 
 // Initial Data
