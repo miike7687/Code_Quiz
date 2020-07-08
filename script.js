@@ -110,10 +110,14 @@ function nextQuestion() {
 function ScoreQuestion(answer) {
   if (answer === currentQuestion.answer) {
     userScore++;
+    results.textContent =
+      "YAY! You're correct! Current User Score: " + userScore;
   } else {
     userScore--;
+    results.textContent =
+      "OUCH! You're wrong! Current User Score: " + userScore;
   }
-  results.textContent = "Current User Score: " + userScore;
+
   currentQuestionIndex++;
   // If we get to the end of the array, end the game
   if (currentQuestionIndex > questionsArray.length - 1) {
