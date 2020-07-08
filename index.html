@@ -11,10 +11,11 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav></nav>
-    <ul class="nav nav-pills nav-fill">
+    <ul class="nav nav-pills nav-fill nav-bar">
       <li class="nav-item">
         <a class="nav-link active" href="#">View Highscores</a>
       </li>
@@ -43,20 +44,41 @@
       >
       <hr />
       <div id="quiz">
-        <div id="question">Question</div>
+        <div id="question"></div>
         <br />
-        <div id="answer1">Answer1</div>
-        <div id="answer2">Answer2</div>
-        <div id="answer3">Answer3</div>
-        <div id="answer4">Answer4</div>
+        <a
+          class="btn btn-primary btn-lg answer-button"
+          id="answer-one"
+          href="#"
+          role="button"
+        ></a>
+        <br />
+        <a
+          class="btn btn-primary btn-lg answer-button"
+          id="answer-two"
+          href="#"
+          role="button"
+        ></a>
+        <br />
+        <a
+          class="btn btn-primary btn-lg answer-button"
+          id="answer-three"
+          href="#"
+          role="button"
+        ></a>
+        <br />
+        <a
+          class="btn btn-primary btn-lg answer-button"
+          id="answer-four"
+          href="#"
+          role="button"
+        ></a>
       </div>
       <br />
       <div>
-        <h3 id="score">Score:</h3>
+        <h3 id="results"></h3>
       </div>
-
-      <div id="results">Results:</div>
-    </div>
+      
 
     <script src="script.js"></script>
   </body>
