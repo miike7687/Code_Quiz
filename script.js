@@ -116,6 +116,7 @@ function ScoreQuestion(answer) {
       "YAY! You're correct! Current User Score: " + userScore;
   } else {
     userScore--;
+    timeLeft = timeLeft - 10;
     results.textContent =
       "OUCH! You're wrong! Current User Score: " + userScore;
   }
