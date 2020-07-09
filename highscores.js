@@ -1,5 +1,4 @@
 var submitScore = document.getElementById("submit-score");
-var clearScores = document.getElementById("clear-highscores");
 var scoresList = document.getElementById("list");
 var userName = document.getElementById("user-name");
 var score = document.getElementById("user-score");
