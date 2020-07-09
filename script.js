@@ -64,9 +64,10 @@ beginQuiz.addEventListener("click", function () {
 // function for the timer to begin
 function startTimer() {
   var timeInterval = setInterval(function () {
+    timeLeft--;
     countdownClock.textContent = `Time: ${timeLeft}`;
   }, 1000);
-  timeLeft--;
+
   answerOne.addEventListener("click", function () {
     var answer = this.textContent;
     ScoreQuestion(answer);

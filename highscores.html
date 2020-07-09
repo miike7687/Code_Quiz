@@ -20,13 +20,19 @@
       <div class="row">
         <div class="col-md-12 col-lg-10 col-xl-8" id="highscore-div">
           <h2 id="scores-title">
-            High Scores(Type your intials and score and hit submit):
+            New High Scores(Enter your name, your score, and hit submit):
           </h2>
           <ol id="list"></ol>
-          <input type="text" id="user-input" />
+          <h4 class="input-title">Name:</h4>
+          <input type="text" id="user-name" />
+          <h4 class="input-title">Score:</h4>
+          <input type="text" id="user-score" />
           <button id="submit-score" value="add to list">Submit Score</button>
-          <button id="clear-highscores">Clear Highscores</button>
         </div>
+      </div>
+      <h2 id="all-scores">All High Scores:</h2>
+      <div class="card">
+        <div class="card-body" id="display-scores"></div>
       </div>
     </div>
     <script src="highscores.js"></script>
